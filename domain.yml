@@ -62,7 +62,7 @@ responses:
     - title: "Yes"
       payload: '/pincode{{"pin":{pin}}}'
     - title: "No"
-      payload: '/<greet>'
+      payload: '/greet'
 
   utter_show_name:
   - text: "Your Name is {name} and Pincode is {pin}" 
