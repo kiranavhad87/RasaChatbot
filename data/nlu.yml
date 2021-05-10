@@ -1,0 +1,172 @@
+version: "2.0"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+
+- intent: no_pin_mentioned
+  examples: |
+    - tell me the corona status
+    - show me the corona cases
+    - corona cases
+    - how many corona cases
+    - corona cases in india
+    - spreding of corona 
+    - how many cases are there
+    - how much corona cases present
+    - show me active corona cases
+    - corona pationts
+    - show me active corona cases
+    - corona corona corona
+    - active case count
+    - show me active corona count
+    - tell me corona case count
+    - how many corona pationts are there
+    - show me corna active cases present
+
+- intent: Corona_state
+  examples: | 
+    - [indian](state)
+    - tell me the corona status for [maharastra](state)
+    - [Gujarat](state)
+    - what is the status of corona in [Rajastan](state)
+    - [Keral](state)
+    - [Tamilnadu](state)
+    - [Andhra Pradesh](state)
+    - [Karnataka](state)
+    - corona stutus in [Goa](state)
+    - corona staus for stat [Hariyana](state)
+    - [West Bengal](state)
+    - [Bihar](state)
+    - [Asam](state)
+    - [Panjab](state)
+    - [Delhi](state)
+    - [Madhya Pradesh](state)
+    - [Uttar Pradesh](state)
+    - [Mizoram](state)      
+
+- intent: pincode
+  examples: |
+    - my pin is [411048](pin)
+    - [380006](pin)
+    - my pincode is [600061](pin)
+    - this is my pin code [421012]
+    - show me corona cases for [411048](pin)
+    - tell me the corona status for [411041](pin)
+    - what is the status of corona in [458505](pin)
+    - corona stutus in [478545](pin)
+    - corona staus for state [4456314](pin)
+    - what are the covid cases today?
+    
+- intent: my_name
+  examples: |
+    - My name is [kiran](name)
+    - My name is [ashish](name)
+    - My name is [vandana](name)
+    - My name is [pravin](name)
+    - [rahul](name) my name 
+    - [rohit](name)
+    - people call me [rahul](name)
+    - my good name is [sunil](name)             
+
+- intent: dialog_hold_on
+  examples: | 
+    - wait a second
+    - could you wait
+    - wait please
+    - hold on
+    - wait
+    - oh wait
+    - wait hold on
+    - wait one sec
+    - hold on for a sec
+    - hold on man
+    - wait a sec
+    - hold on a min
+    - will u pls wait for a sec
